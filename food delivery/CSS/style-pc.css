@@ -1,0 +1,195 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+body{
+    color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* navigation bar */
+.logo img{
+    height: 65px;
+    width: 65px;
+    filter: invert();
+    transform: rotate(90deg);
+}
+
+.nav{
+    display: flex;
+    height: 7.8vh;
+    position: fixed;
+    color: white;
+    background-color: black;
+    align-items: center;
+    width: 100%;
+}
+
+.items{
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+    width: auto;
+}
+
+.items  li a{
+    text-decoration: none;
+    color: white;
+    margin: 8px 3px;
+    padding: 4px 16px;
+}
+
+.items  li a:hover{
+    cursor: pointer;
+    color: grey;
+}
+
+
+.top{
+
+display: flex;
+height: 721px;
+background-color: black;
+color: white;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+text-align: center;
+padding: 0px 150px;
+z-index: -1;
+
+}
+
+.top::before{
+    content: "";
+    position: absolute;
+    background: url('IMAGES/food.jpg') no-repeat center center/cover;
+    height: 721px;
+    width: 100%;
+    z-index: -1;
+    opacity: 60%;
+}
+
+.top p{
+    width: auto;
+}
+
+
+.mid{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    color: black;
+    text-align: center;
+}
+
+.mid a{
+    text-decoration: none;
+    color: black;
+}
+
+.mid img{
+    
+    height: 200px;
+
+}
+.order{
+    margin: 10px 20px;
+    padding: 20px 30px ;
+    
+    background-color: rgb(250, 228, 220);
+    border-radius: 8px;
+}
+
+.dine{
+    margin: 10px 20px;
+    padding: 20px 30px ;
+   
+    background-color: rgb(213, 238, 247);
+    border-radius: 8px;
+}
+
+
+.serv{
+    margin: 10px 20px;
+    padding: 20px 30px ;
+    
+    background-color: rgb(219, 248, 219);
+    border-radius: 8px;
+}
+
+
+.cod{
+    height: 150px;
+    width: 150px;
+    margin: 10px 50px;
+
+}
+
+.footer{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    text-align: center;
+}
+
+.contact form{
+    display: flex;
+    flex-direction: column;
+}
+.contact form input{
+    width: 270px;
+    margin: 3px 0px;
+    padding: 2px;
+}
+
+#name{
+    margin: 2px 10px;
+}
+#email{
+    margin: 0px 6px;
+}
+#smt{
+    width: 160px;
+    height: 30px;
+    margin: 0px 90px;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.cont{
+    color: white;
+    margin-top: 10px;
+}
+
+.about p{
+    font-size: 1rem;
+    width: 500px;
+    margin-top: 10px;
+}
+/* utility calss */
+
+h1{
+    font-size: 3.9rem;
+    padding: 12px;
+}
+
+h2{
+    font-size: 2.8rem;
+    padding: 10px 10px;
+}
+
+label{
+    padding: 5px 15px;
+}
+
